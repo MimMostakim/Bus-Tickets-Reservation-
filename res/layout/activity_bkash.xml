@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#993463"
+    tools:context="com.example.mim.bustickets.Bkash">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Bkash Agent Number"/>
+
+    <EditText
+        android:id="@+id/edtnu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"/>
+    <EditText
+        android:id="@+id/edtam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"/>
+    <EditText
+        android:id="@+id/edtcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmation Code"/>
+    <Button
+        android:id="@+id/btnsent"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Sent amount"/>
+    <Button
+        android:id="@+id/btnco"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="confirm"/>
+
+</LinearLayout>

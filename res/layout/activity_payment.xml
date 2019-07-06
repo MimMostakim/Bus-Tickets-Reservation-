@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#898787"
+    tools:context="com.example.mim.bustickets.Payment">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Payment For Tickets"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:background="#e4e6ea"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:text="bKash"
+        android:id="@+id/btnbk"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Cash On Delivery"
+        android:id="@+id/btncash"/>
+</LinearLayout>

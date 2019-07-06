@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#766274"
+    tools:context="com.example.mim.bustickets.BookTickets">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c999c6"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Bus Route Information"/>
+    <AutoCompleteTextView
+        android:id="@+id/actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From"
+        android:completionThreshold="1"
+        android:completionHint="From"
+        android:gravity="center" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:completionThreshold="1"
+        android:completionHint="To"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="20sp" />
+    <ProgressBar
+        android:id="@+id/pro"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_margin="20dp"
+        android:progressBackgroundTint="#3614f7"
+        android:progressTint="#02b3b9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:id="@+id/btnp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Bus" />
+
+</LinearLayout>

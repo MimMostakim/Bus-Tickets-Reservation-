@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#766274"
+    tools:context="com.example.mim.bustickets.Passenger">
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/edt"
+        />
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/edit1"/>
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:gravity="center"
+        android:id="@+id/edit2"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/btnc"/>
+
+</LinearLayout>
